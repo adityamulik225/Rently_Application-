@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "392472105027",
+    "project_id": "rentlyapp-37b34",
+    "storage_bucket": "rentlyapp-37b34.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392472105027:android:c23c98b1464f87efa7c4f6",
+        "android_client_info": {
+          "package_name": "com.example.rently_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp2spXhnYS4JgpzSKO2lCn0FW3gf4WH28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
