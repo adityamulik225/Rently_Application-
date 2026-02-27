@@ -50,11 +50,18 @@ class _SignUpPage extends State<Signup>{
           
           UiHelper.CustomTextField(passwordcontroller, "password", Icons.password, true),
 
+       Row(
+         mainAxisAlignment: MainAxisAlignment.center,
+         children: [
 
-          UiHelper.CustomButton((){
-            Signup(emailcontroller.text.toString(), passwordcontroller.text.toString());
-          }, "signup"),
-          SizedBox(height: 30),
+           UiHelper.CustomButton((){
+             Signup(emailcontroller.text.toString(), passwordcontroller.text.toString());
+           }, "signup"),
+           SizedBox(height: 30),
+
+         ],
+       )
+
 
         ],
       ),

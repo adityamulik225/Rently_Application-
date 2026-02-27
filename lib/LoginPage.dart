@@ -65,10 +65,12 @@ class _LoginPageState extends State<LoginPage> {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text("Already Have an Account ?", style: TextStyle(fontSize: 16)),
+              Text("Already Have an Account ?", style: TextStyle(fontSize: 25)),
+              SizedBox(width: 10,),
+
               TextButton(onPressed: (){
                 Navigator.push(context, MaterialPageRoute(builder: (context)=> Signup()));
-              }, child: Text("Signup"))
+              }, child: Text("Signup",style: TextStyle(fontSize: 20)))
             ],
           ),
         ],
