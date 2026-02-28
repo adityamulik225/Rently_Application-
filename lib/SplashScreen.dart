@@ -28,6 +28,7 @@ class _SplashScreenState extends State<Splashscreen> {
           width: 150,
           child: Image.asset('assets/images/logo.png'),
         ),
+
       ),
     );
   }
